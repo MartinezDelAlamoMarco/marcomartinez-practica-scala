@@ -53,6 +53,26 @@ IntelliJ IDEA Community + sbt
 | [ejercicios-06-10.ipynb](parte2/notebooks/ejercicios-06-10.ipynb) | 6 a 10 |
 | [ejercicios-11-15.ipynb](parte2/notebooks/ejercicios-11-15.ipynb) | 11 a 15 |
 
+## Parte 3 - Mini proyectos
+
+Dos mini proyectos sbt que aplican de forma integrada lo trabajado en las Partes 1 y 2, cada uno en un entorno distinto.
+
+[Ver documentación de la Parte 3](parte3/README.md)
+
+### Parte 3.1
+
+Visual Studio Code + Metals + sbt — Clasificador de resultados de un torneo de Twenty-One
+
+- [Documentación](parte3/parte-3-1-vscode/README.md)
+- [Proyecto `torneo-twenty-one`](parte3/parte-3-1-vscode/torneo-twenty-one/)
+
+### Parte 3.2
+
+IntelliJ IDEA + sbt — Analizador de calificaciones de un grupo
+
+- [Documentación](parte3/parte-3-2-intellij/README.md)
+- [Proyecto `analizador-notas`](parte3/parte-3-2-intellij/analizador-notas/)
+
 ## Estructura del repositorio
 
 ```text
@@ -75,6 +95,25 @@ marcomartinez-practica-scala/
 │   │   └── ejercicios-11-15.ipynb
 │   └── images/
 │       └── parte2-*.png
+├── parte3/
+│   ├── README.md
+│   ├── parte-3-1-vscode/
+│   │   ├── README.md
+│   │   └── torneo-twenty-one/
+│   │       ├── build.sbt
+│   │       ├── project/
+│   │       └── src/main/scala/
+│   │           └── Main.scala
+│   ├── parte-3-2-intellij/
+│   │   ├── README.md
+│   │   └── analizador-notas/
+│   │       ├── build.sbt
+│   │       ├── project/
+│   │       └── src/main/scala/
+│   │           └── Main.scala
+│   └── images/
+│       ├── p31-*.png
+│       └── p32-*.png
 └── images/
     ├── jupyter-*.png
     ├── vscode-*.png
@@ -83,7 +122,8 @@ marcomartinez-practica-scala/
 
 - **`parte1/`**: documentación en Markdown, notebook y proyectos de cada entorno.
 - **`parte2/`**: notebooks con los 15 ejercicios y sus capturas.
-- **`images/`**: capturas de pantalla de la Parte 1, referenciadas desde los archivos Markdown.
+- **`parte3/`**: los mini proyectos sbt con su documentación.
+- **`images/`**: capturas de pantalla de la Parte 1, referenciadas desde los archivos Markdown. Las Partes 2 y 3 tienen las suyas en `parte2/images/` y `parte3/images/`.
 
 ## Cómo navegar
 
@@ -91,3 +131,4 @@ marcomartinez-practica-scala/
 2. Cada entorno tiene su propio documento con los pasos en orden, una captura por paso y un resumen final.
 3. El código está junto a la documentación: el notebook en `parte1/notebook/` y los proyectos sbt en `parte1/scala-vscode/` y `parte1/scala-intellij/`.
 4. Continúa con la [Parte 2](parte2/README.md): los 15 ejercicios repartidos en tres notebooks, cada uno con su explicación en Markdown y la salida de las celdas ejecutadas.
+5. Termina con la [Parte 3](parte3/README.md): los mini proyectos, con el código, la salida de `sbt run` y los problemas que fueron saliendo.
