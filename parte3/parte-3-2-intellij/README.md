@@ -247,5 +247,3 @@ Desde el botón *Run* de IntelliJ las tildes salen bien sin tocar nada: en la pr
 - **Clasificación por rangos.** `clasificacion` compara con `>=` en cascada (`>= 9`, `>= 7`, `>= 5`) en lugar de comprobar valor a valor. Como los `else if` se evalúan en orden, cada nota cae en el primer rango que cumple, y el `else` final recoge todo lo que quede por debajo de 5.
 - **Recuentos con `count`.** Para contar aprobados y suspensos uso `notas.count(aprobado)` y `notas.count(!aprobado(_))` en lugar de llevar contadores dentro del `while`, igual que hice en el [mini proyecto 3.1](../parte-3-1-vscode/README.md).
 - **Capturas.** Están en `parte3/images/` con el prefijo `p32-`.
-
-[← Volver a la Parte 3](../README.md) · [Mini proyecto 3.1](../parte-3-1-vscode/README.md)
