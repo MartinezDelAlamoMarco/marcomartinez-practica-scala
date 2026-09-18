@@ -206,5 +206,3 @@ Con eso la salida sale con las tildes correctas, que es la que aparece en las ca
 - **Estadísticas con `count`, `filter` y `max`.** Para los resúmenes uso estos tres métodos en lugar de llevar contadores dentro del `while`. Hacen lo mismo en una línea y evitan repetir código en las dos rondas.
 - **Ubicación del README.** El enunciado pide un `README.md` en la carpeta del proyecto: lo dejo en `parte3/parte-3-1-vscode/`, junto al proyecto sbt y no dentro de él, que es como aparece en el ejemplo de estructura del propio enunciado.
 - **Capturas.** Las guardo en `parte3/images/` con el prefijo `p31-`, siguiendo el mismo criterio que en la Parte 2, donde cada parte tiene su propia carpeta de capturas.
-
-[← Volver a la Parte 3](../README.md)
